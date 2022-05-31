@@ -1,20 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link rel="stylesheet" href="assets/css/stylesheet.css">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    </head>
-    <body>
-        <div id="sideNav">
-            <span class="closeBtn" onclick="closeNav()">&times</span>
-        </div>
-        <span class="navBtn" onclick="openNav()">&#9776</span>
 
-        <script src="assets/scripts/script.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/stylesheet.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+    <header class="banner-top">
+        <span class="navBtn" id="menuBtn" onclick="toggleNav()">&#9776;</span>
+
+        <h1 class="heading-name">Abdullah Ryklief</h1>
+
+        
+        <div id="sideNav">
+            <!-- <span class="closeBtn" onclick="toggleNav()">&times</span> -->
+        </div>
+    </header>
+    <main class="content">
+        <section class="education">
+            <h4 id="education">Education</h4>
+            <div id="edu-cput">
+                <h5>Cape Peninsula University of Technology</h5>
+                <ul>
+                    <li>Qualification : Diploma in Information Technology with a focus on Application Development</li>
+                    <li>Duration : 2018 - 2020</li>
+                </ul>
+            </div>
+            <div id="edu-northlink">
+                <h5>Northlink College</h5>
+                <ul>
+                    <li>Qualification : N5 Mechanical Engineering</li>
+                    <li>Duration : 2016 - 2017</li>
+                </ul>
+            </div>
+            <div id="edu-oracle">
+                <h5>The Oracle Academy</h5>
+                <ul>
+                    <li>Qualification : Grade 12 (Matric)</li>
+                    <li>Duration : 2010 - 2014</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <script src="assets/scripts/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
